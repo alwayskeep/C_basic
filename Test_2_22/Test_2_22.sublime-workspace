@@ -1,0 +1,310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"System"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#define _CRT_SECURE_NO_WARNINGS\n#include<stdio.h>\n\nint main()\n{\n\t/*int ch = 0;\n\twhile ((ch = getchar()) != EOF)\n\t{\n\t\tputchar(ch);\n\t}*/\n\t\n\t/*int ret = 0;\n\tchar password[20] = { 0 };\n\tprintf(\"请输入密码 :>\");\n\tscanf(\"%s\",password);\n\tprintf(\"请确认(Y/N):>\");\n\tgetchar();\n\tret = getchar();\n\tif (ret == 'Y')\n\t{\n\t\tprintf(\"确认成功\");\n\t}\n\telse if (ret == 'N')\n\t{\n\t\tprintf(\"确认失败\");\n\t}*/\n\n\t/*int a = 0;\n\tint* p = (a = 2);\n\tprintf(\"%p\\n\",p);*/\n\t\t\n\t/*1.计算N的阶乘*/\n\n\n\t/*while (1)\n\t{\n\t\tint num = 0;\n\t\tint sum = 1;\n\t\tint i;\n\t\tscanf(\"%d\", &num);\n\t\tfor (i = 1; i <= num; i++)\n\t\t{\n\t\t\tsum *= i;\n\t\t}\n\t\tprintf(\"%d\\n\", sum);\n\t}*/\n\n\tint j = 1;\n\tint add = 0;\n\twhile (j<11)\n\t{\n\t\tint num = j;\n\t\tint sum = 1;\n\t\tint i;\n\t\tfor (i = 1; i <= num; i++)\n\t\t{\n\t\t\tsum *= i;\n\t\t}\n\t\tadd += sum;\n\t\tj++;\n\t}\n\tprintf(\"%d\\n\",add);\n\treturn 0;\n}",
+			"file": "test.c",
+			"file_size": 869,
+			"file_write_time": 133215479777963191,
+			"redo_stack":
+			[
+				[
+					25,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABQAwAAI2RlZmluZSBfQ1JUX1NFQ1VSRV9OT19XQVJOSU5HUwojaW5jbHVkZTxzdGRpby5oPgoKaW50IG1haW4oKQp7CgkvKmludCBjaCA9IDA7Cgl3aGlsZSAoKGNoID0gZ2V0Y2hhcigpKSAhPSBFT0YpCgl7CgkJcHV0Y2hhcihjaCk7Cgl9Ki8KCQoJLyppbnQgcmV0ID0gMDsKCWNoYXIgcGFzc3dvcmRbMjBdID0geyAwIH07CglwcmludGYoIsOHw6vDisOkw4jDq8ODw5zDgsOrIDo+Iik7CglzY2FuZigiJXMiLHBhc3N3b3JkKTsKCXByaW50Zigiw4fDq8OIwrfDiMOPKFkvTik6PiIpOwoJZ2V0Y2hhcigpOwoJcmV0ID0gZ2V0Y2hhcigpOwoJaWYgKHJldCA9PSAnWScpCgl7CgkJcHJpbnRmKCLDiMK3w4jDj8Kzw4nCucKmIik7Cgl9CgllbHNlIGlmIChyZXQgPT0gJ04nKQoJewoJCXByaW50Zigiw4jCt8OIw4/DisKnwrDDnCIpOwoJfSovCgoJLyppbnQgYSA9IDA7CglpbnQqIHAgPSAoYSA9IDIpOwoJcHJpbnRmKCIlcFxuIixwKTsqLwoJCQoJLyoxLsK8w4bDi8OjTsK1w4TCvcOXwrPDiyovCgoKCS8qd2hpbGUgKDEpCgl7CgkJaW50IG51bSA9IDA7CgkJaW50IHN1bSA9IDE7CgkJaW50IGk7CgkJc2NhbmYoIiVkIiwgJm51bSk7CgkJZm9yIChpID0gMTsgaSA8PSBudW07IGkrKykKCQl7CgkJCXN1bSAqPSBpOwoJCX0KCQlwcmludGYoIiVkXG4iLCBzdW0pOwoJfSovCgoJaW50IGogPSAxOwoJaW50IGFkZCA9IDA7Cgl3aGlsZSAoajwxMSkKCXsKCQlpbnQgbnVtID0gajsKCQlpbnQgc3VtID0gMTsKCQlpbnQgaTsKCQlmb3IgKGkgPSAxOyBpIDw9IG51bTsgaSsrKQoJCXsKCQkJc3VtICo9IGk7CgkJfQoJCWFkZCArPSBzdW07CgkJaisrOwoJfQoJcHJpbnRmKCIlZFxuIixhZGQpOwoJcmV0dXJuIDA7Cn0AAAAAAAAAABEDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgIAAAAAAADCAgAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 785,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows",
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					25,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAB7AgAAI2RlZmluZSBfQ1JUX1NFQ1VSRV9OT19XQVJOSU5HUwojaW5jbHVkZTxzdGRpby5oPgoKaW50IG1haW4oKQp7CgkvKmludCBjaCA9IDA7Cgl3aGlsZSAoKGNoID0gZ2V0Y2hhcigpKSAhPSBFT0YpCgl7CgkJcHV0Y2hhcihjaCk7Cgl9Ki8KCQoJLyppbnQgcmV0ID0gMDsKCWNoYXIgcGFzc3dvcmRbMjBdID0geyAwIH07CglwcmludGYoIsOHw6vDisOkw4jDq8ODw5zDgsOrIDo+Iik7CglzY2FuZigiJXMiLHBhc3N3b3JkKTsKCXByaW50Zigiw4fDq8OIwrfDiMOPKFkvTik6PiIpOwoJZ2V0Y2hhcigpOwoJcmV0ID0gZ2V0Y2hhcigpOwoJaWYgKHJldCA9PSAnWScpCgl7CgkJcHJpbnRmKCLDiMK3w4jDj8Kzw4nCucKmIik7Cgl9CgllbHNlIGlmIChyZXQgPT0gJ04nKQoJewoJCXByaW50Zigiw4jCt8OIw4/DisKnwrDDnCIpOwoJfSovCgoJLyppbnQgYSA9IDA7CglpbnQqIHAgPSAoYSA9IDIpOwoJcHJpbnRmKCIlcFxuIixwKTsqLwoJCQoJLyoxLsK8w4bDi8OjTsK1w4TCvcOXwrPDiyovCglpbnQgbnVtID0gMDsKCWludCBzdW0gPSAxOwoJaW50IGk7CglzY2FuZigiJWQiLCZudW0pOwoJaWYgKGkgPTEgOyBpIDwgbnVtOyBpKyspCgl7CgkJc3VtICo9IGk7Cgl9CglwcmludGYoIiVkXG4iLHN1bSk7CgoJcmV0dXJuIDA7Cn0AAAAAAAAAAFECAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKABAAAAAAAAoAEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					28,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAB7AgAAI2RlZmluZSBfQ1JUX1NFQ1VSRV9OT19XQVJOSU5HUwojaW5jbHVkZTxzdGRpby5oPgoKaW50IG1haW4oKQp7CgkvKmludCBjaCA9IDA7Cgl3aGlsZSAoKGNoID0gZ2V0Y2hhcigpKSAhPSBFT0YpCgl7CgkJcHV0Y2hhcihjaCk7Cgl9Ki8KCQoJLyppbnQgcmV0ID0gMDsKCWNoYXIgcGFzc3dvcmRbMjBdID0geyAwIH07CglwcmludGYoIsOHw6vDisOkw4jDq8ODw5zDgsOrIDo+Iik7CglzY2FuZigiJXMiLHBhc3N3b3JkKTsKCXByaW50Zigiw4fDq8OIwrfDiMOPKFkvTik6PiIpOwoJZ2V0Y2hhcigpOwoJcmV0ID0gZ2V0Y2hhcigpOwoJaWYgKHJldCA9PSAnWScpCgl7CgkJcHJpbnRmKCLDiMK3w4jDj8Kzw4nCucKmIik7Cgl9CgllbHNlIGlmIChyZXQgPT0gJ04nKQoJewoJCXByaW50Zigiw4jCt8OIw4/DisKnwrDDnCIpOwoJfSovCgoJLyppbnQgYSA9IDA7CglpbnQqIHAgPSAoYSA9IDIpOwoJcHJpbnRmKCIlcFxuIixwKTsqLwoJCQoJLyoxLsK8w4bDi8OjTsK1w4TCvcOXwrPDiyovCglpbnQgbnVtID0gMDsKCWludCBzdW0gPSAxOwoJaW50IGk7CglzY2FuZigiJWQiLCZudW0pOwoJaWYgKGkgPTEgOyBpIDwgbnVtOyBpKyspCgl7CgkJc3VtICo9IGk7Cgl9CglwcmludGYoIiVkXG4iLHN1bSk7CgoJcmV0dXJuIDA7Cn0AAAAAAAAAAFECAAAAAAAAAAAAAAAAAAAAAAAAJgMAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKABAAAAAAAAoAEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					13,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAABQAwAAI2RlZmluZSBfQ1JUX1NFQ1VSRV9OT19XQVJOSU5HUwojaW5jbHVkZTxzdGRpby5oPgoKaW50IG1haW4oKQp7CgkvKmludCBjaCA9IDA7Cgl3aGlsZSAoKGNoID0gZ2V0Y2hhcigpKSAhPSBFT0YpCgl7CgkJcHV0Y2hhcihjaCk7Cgl9Ki8KCQoJLyppbnQgcmV0ID0gMDsKCWNoYXIgcGFzc3dvcmRbMjBdID0geyAwIH07CglwcmludGYoIsOHw6vDisOkw4jDq8ODw5zDgsOrIDo+Iik7CglzY2FuZigiJXMiLHBhc3N3b3JkKTsKCXByaW50Zigiw4fDq8OIwrfDiMOPKFkvTik6PiIpOwoJZ2V0Y2hhcigpOwoJcmV0ID0gZ2V0Y2hhcigpOwoJaWYgKHJldCA9PSAnWScpCgl7CgkJcHJpbnRmKCLDiMK3w4jDj8Kzw4nCucKmIik7Cgl9CgllbHNlIGlmIChyZXQgPT0gJ04nKQoJewoJCXByaW50Zigiw4jCt8OIw4/DisKnwrDDnCIpOwoJfSovCgoJLyppbnQgYSA9IDA7CglpbnQqIHAgPSAoYSA9IDIpOwoJcHJpbnRmKCIlcFxuIixwKTsqLwoJCQoJLyoxLsK8w4bDi8OjTsK1w4TCvcOXwrPDiyovCgoKCS8qd2hpbGUgKDEpCgl7CgkJaW50IG51bSA9IDA7CgkJaW50IHN1bSA9IDE7CgkJaW50IGk7CgkJc2NhbmYoIiVkIiwgJm51bSk7CgkJZm9yIChpID0gMTsgaSA8PSBudW07IGkrKykKCQl7CgkJCXN1bSAqPSBpOwoJCX0KCQlwcmludGYoIiVkXG4iLCBzdW0pOwoJfSovCgoJaW50IGogPSAxOwoJaW50IGFkZCA9IDA7Cgl3aGlsZSAoajwxMSkKCXsKCQlpbnQgbnVtID0gajsKCQlpbnQgc3VtID0gMTsKCQlpbnQgaTsKCQlmb3IgKGkgPSAxOyBpIDw9IG51bTsgaSsrKQoJCXsKCQkJc3VtICo9IGk7CgkJfQoJCWFkZCArPSBzdW07CgkJaisrOwoJfQoJcHJpbnRmKCIlZFxuIixhZGQpOwoJcmV0dXJuIDA7Cn0AAAAAAAAAACYDAAAAAAAAAAAAAAAAAAAAAAAAJgMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABHAQAAAAAAAEcBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					1,
+					1,
+					"convert_to_utf8",
+					{
+						"detect_on_fail": false,
+						"stamp": "1677074280.593579"
+					},
+					"AQAAAAAAAAAAAAAAEQMAAAAAAABQAwAAI2RlZmluZSBfQ1JUX1NFQ1VSRV9OT19XQVJOSU5HUwojaW5jbHVkZTxzdGRpby5oPgoKaW50IG1haW4oKQp7CgkvKmludCBjaCA9IDA7Cgl3aGlsZSAoKGNoID0gZ2V0Y2hhcigpKSAhPSBFT0YpCgl7CgkJcHV0Y2hhcihjaCk7Cgl9Ki8KCQoJLyppbnQgcmV0ID0gMDsKCWNoYXIgcGFzc3dvcmRbMjBdID0geyAwIH07CglwcmludGYoIsOHw6vDisOkw4jDq8ODw5zDgsOrIDo+Iik7CglzY2FuZigiJXMiLHBhc3N3b3JkKTsKCXByaW50Zigiw4fDq8OIwrfDiMOPKFkvTik6PiIpOwoJZ2V0Y2hhcigpOwoJcmV0ID0gZ2V0Y2hhcigpOwoJaWYgKHJldCA9PSAnWScpCgl7CgkJcHJpbnRmKCLDiMK3w4jDj8Kzw4nCucKmIik7Cgl9CgllbHNlIGlmIChyZXQgPT0gJ04nKQoJewoJCXByaW50Zigiw4jCt8OIw4/DisKnwrDDnCIpOwoJfSovCgoJLyppbnQgYSA9IDA7CglpbnQqIHAgPSAoYSA9IDIpOwoJcHJpbnRmKCIlcFxuIixwKTsqLwoJCQoJLyoxLsK8w4bDi8OjTsK1w4TCvcOXwrPDiyovCgoKCS8qd2hpbGUgKDEpCgl7CgkJaW50IG51bSA9IDA7CgkJaW50IHN1bSA9IDE7CgkJaW50IGk7CgkJc2NhbmYoIiVkIiwgJm51bSk7CgkJZm9yIChpID0gMTsgaSA8PSBudW07IGkrKykKCQl7CgkJCXN1bSAqPSBpOwoJCX0KCQlwcmludGYoIiVkXG4iLCBzdW0pOwoJfSovCgoJaW50IGogPSAxOwoJaW50IGFkZCA9IDA7Cgl3aGlsZSAoajwxMSkKCXsKCQlpbnQgbnVtID0gajsKCQlpbnQgc3VtID0gMTsKCQlpbnQgaTsKCQlmb3IgKGkgPSAxOyBpIDw9IG51bTsgaSsrKQoJCXsKCQkJc3VtICo9IGk7CgkJfQoJCWFkZCArPSBzdW07CgkJaisrOwoJfQoJcHJpbnRmKCIlZFxuIixhZGQpOwoJcmV0dXJuIDA7Cn0",
+					"AQAAAAAAAAABAAAACwEAAAAAAAALAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAA7AwAAI2RlZmluZSBfQ1JUX1NFQ1VSRV9OT19XQVJOSU5HUwojaW5jbHVkZTxzdGRpby5oPgoKaW50IG1haW4oKQp7CgkvKmludCBjaCA9IDA7Cgl3aGlsZSAoKGNoID0gZ2V0Y2hhcigpKSAhPSBFT0YpCgl7CgkJcHV0Y2hhcihjaCk7Cgl9Ki8KCQoJLyppbnQgcmV0ID0gMDsKCWNoYXIgcGFzc3dvcmRbMjBdID0geyAwIH07CglwcmludGYoIuivt+i+k+WFpeWvhueggSA6PiIpOwoJc2NhbmYoIiVzIixwYXNzd29yZCk7CglwcmludGYoIuivt+ehruiupChZL04pOj4iKTsKCWdldGNoYXIoKTsKCXJldCA9IGdldGNoYXIoKTsKCWlmIChyZXQgPT0gJ1knKQoJewoJCXByaW50Zigi56Gu6K6k5oiQ5YqfIik7Cgl9CgllbHNlIGlmIChyZXQgPT0gJ04nKQoJewoJCXByaW50Zigi56Gu6K6k5aSx6LSlIik7Cgl9Ki8KCgkvKmludCBhID0gMDsKCWludCogcCA9IChhID0gMik7CglwcmludGYoIiVwXG4iLHApOyovCgkJCgkvKjEu6K6h566XTueahOmYtuS5mCovCgoKCS8qd2hpbGUgKDEpCgl7CgkJaW50IG51bSA9IDA7CgkJaW50IHN1bSA9IDE7CgkJaW50IGk7CgkJc2NhbmYoIiVkIiwgJm51bSk7CgkJZm9yIChpID0gMTsgaSA8PSBudW07IGkrKykKCQl7CgkJCXN1bSAqPSBpOwoJCX0KCQlwcmludGYoIiVkXG4iLCBzdW0pOwoJfSovCgoJaW50IGogPSAxOwoJaW50IGFkZCA9IDA7Cgl3aGlsZSAoajwxMSkKCXsKCQlpbnQgbnVtID0gajsKCQlpbnQgc3VtID0gMTsKCQlpbnQgaTsKCQlmb3IgKGkgPSAxOyBpIDw9IG51bTsgaSsrKQoJCXsKCQkJc3VtICo9IGk7CgkJfQoJCWFkZCArPSBzdW07CgkJaisrOwoJfQoJcHJpbnRmKCIlZFxuIixhZGQpOwoJcmV0dXJuIDA7Cn0AAAAAAAAAACYDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQMAAAAAAAARAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"convert_to_utf8",
+					{
+						"detect_on_fail": true,
+						"stamp": "1677074338.5195775"
+					},
+					"AQAAAAAAAAAAAAAAEQMAAAAAAABQAwAAI2RlZmluZSBfQ1JUX1NFQ1VSRV9OT19XQVJOSU5HUwojaW5jbHVkZTxzdGRpby5oPgoKaW50IG1haW4oKQp7CgkvKmludCBjaCA9IDA7Cgl3aGlsZSAoKGNoID0gZ2V0Y2hhcigpKSAhPSBFT0YpCgl7CgkJcHV0Y2hhcihjaCk7Cgl9Ki8KCQoJLyppbnQgcmV0ID0gMDsKCWNoYXIgcGFzc3dvcmRbMjBdID0geyAwIH07CglwcmludGYoIsOHw6vDisOkw4jDq8ODw5zDgsOrIDo+Iik7CglzY2FuZigiJXMiLHBhc3N3b3JkKTsKCXByaW50Zigiw4fDq8OIwrfDiMOPKFkvTik6PiIpOwoJZ2V0Y2hhcigpOwoJcmV0ID0gZ2V0Y2hhcigpOwoJaWYgKHJldCA9PSAnWScpCgl7CgkJcHJpbnRmKCLDiMK3w4jDj8Kzw4nCucKmIik7Cgl9CgllbHNlIGlmIChyZXQgPT0gJ04nKQoJewoJCXByaW50Zigiw4jCt8OIw4/DisKnwrDDnCIpOwoJfSovCgoJLyppbnQgYSA9IDA7CglpbnQqIHAgPSAoYSA9IDIpOwoJcHJpbnRmKCIlcFxuIixwKTsqLwoJCQoJLyoxLsK8w4bDi8OjTsK1w4TCvcOXwrPDiyovCgoKCS8qd2hpbGUgKDEpCgl7CgkJaW50IG51bSA9IDA7CgkJaW50IHN1bSA9IDE7CgkJaW50IGk7CgkJc2NhbmYoIiVkIiwgJm51bSk7CgkJZm9yIChpID0gMTsgaSA8PSBudW07IGkrKykKCQl7CgkJCXN1bSAqPSBpOwoJCX0KCQlwcmludGYoIiVkXG4iLCBzdW0pOwoJfSovCgoJaW50IGogPSAxOwoJaW50IGFkZCA9IDA7Cgl3aGlsZSAoajwxMSkKCXsKCQlpbnQgbnVtID0gajsKCQlpbnQgc3VtID0gMTsKCQlpbnQgaTsKCQlmb3IgKGkgPSAxOyBpIDw9IG51bTsgaSsrKQoJCXsKCQkJc3VtICo9IGk7CgkJfQoJCWFkZCArPSBzdW07CgkJaisrOwoJfQoJcHJpbnRmKCIlZFxuIixhZGQpOwoJcmV0dXJuIDA7Cn0",
+					"AQAAAAAAAAABAAAAEQMAAAAAAAARAwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ip",
+				"Package Control: Install Package"
+			],
+			[
+				"IPC",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/VS/C语言/Test_2_22"
+	],
+	"file_history":
+	[
+		"/E/ideaWorkSpace/basic-code/day01-code/src/cn/xiaoqiang/demo01/Helloworld.java",
+		"/E/ideaWorkSpace/JavaLearn/basic/src/cn/day05/Student.java",
+		"/E/ideaWorkSpace/JavaLearn/basic/src/cn/day05/Demo05.java",
+		"/D/javatest/HelloWorld.java",
+		"/D/HelloWorld.java",
+		"/D/ideaWorkSpaces/Demo/src/com/sunshaowen/demo/HelloWorld.java",
+		"/D/Eclipse_Workspaces/Demo/src/com/sun/test/Test01.java",
+		"/D/Eclipse_Workspaces/Demo/bin/com/sun/test/Test01.class"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test.c",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								706,
+								706
+							]
+						],
+						"settings":
+						{
+							"in_converting": true,
+							"is_init_dirty_state": false,
+							"origin_content": "#define _CRT_SECURE_NO_WARNINGS\n#include<stdio.h>\n\nint main()\n{\n\t/*int ch = 0;\n\twhile ((ch = getchar()) != EOF)\n\t{\n\t\tputchar(ch);\n\t}*/\n\t\n\t/*int ret = 0;\n\tchar password[20] = { 0 };\n\tprintf(\"请输入密码 :>\");\n\tscanf(\"%s\",password);\n\tprintf(\"请确认(Y/N):>\");\n\tgetchar();\n\tret = getchar();\n\tif (ret == 'Y')\n\t{\n\t\tprintf(\"确认成功\");\n\t}\n\telse if (ret == 'N')\n\t{\n\t\tprintf(\"确认失败\");\n\t}*/\n\n\t/*int a = 0;\n\tint* p = (a = 2);\n\tprintf(\"%p\\n\",p);*/\n\t\t\n\t/*1.计算N的阶乘*/\n\n\n\t/*while (1)\n\t{\n\t\tint num = 0;\n\t\tint sum = 1;\n\t\tint i;\n\t\tscanf(\"%d\", &num);\n\t\tfor (i = 1; i <= num; i++)\n\t\t{\n\t\t\tsum *= i;\n\t\t}\n\t\tprintf(\"%d\\n\", sum);\n\t}*/\n\n\tint j = 1;\n\tint add = 0;\n\twhile (j<11)\n\t{\n\t\tint num = j;\n\t\tint sum = 1;\n\t\tint i;\n\t\tfor (i = 1; i <= num; i++)\n\t\t{\n\t\t\tsum *= i;\n\t\t}\n\t\tadd += sum;\n\t\tj++;\n\t}\n\tprintf(\"%d\\n\",add);\n\treturn 0;\n}",
+							"origin_encoding": "GB2312",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C Single File.sublime-build",
+	"project": "Test_2_22.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 393.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
